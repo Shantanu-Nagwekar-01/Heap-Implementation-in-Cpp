@@ -1,0 +1,20 @@
+# Ignore output folder
+/output/
+
+# Ignore compiled binary files
+*.exe
+*.out
+*.o
+*.obj
+
+# Ignore debug and log files
+*.log
+
+# Ignore IDE specific files (optional, uncomment if needed)
+# .vscode/
+# *.code-workspace
+
+# Ignore temporary/system files
+*.tmp
+*.swp
+*.DS_Store
