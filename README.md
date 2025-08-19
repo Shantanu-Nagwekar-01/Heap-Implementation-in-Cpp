@@ -7,11 +7,8 @@ This project demonstrates heap data structure operations in C++. It includes bui
 ```
 
 .
-├── output/                # Build output directory (ignored in git)
-│   ├── Build-Heap-From-Array.cpp
-│   ├── Build-Heap-From-Array.exe
-│   ├── Max\_Heap.cpp
-│   ├── Max\_Heap.exe
+├── Build-Heap-From-Array.cpp
+├── Max\_Heap.cpp
 ├── .gitignore
 ├── README.md
 
@@ -21,7 +18,8 @@ This project demonstrates heap data structure operations in C++. It includes bui
 
 - **Build-Heap-From-Array.cpp**: Program to build a heap from an array.
 - **Max_Heap.cpp**: Implementation of a Max Heap class with insert, remove, heapify, and print operations.
-- **.gitignore**: Ensures that output binaries and build files are not pushed to the repository.
+- **.gitignore**: Ensures that future output binaries and build files are not pushed to the repository.
+- **README.md**: Documentation of the project.
 
 ## Time and Space Complexity
 
@@ -31,7 +29,7 @@ This project demonstrates heap data structure operations in C++. It includes bui
 - Top: O(1)
 - Print: O(n)
 
-Space Complexity: O(n) for storing heap elements
+Space Complexity: O(n) for storing heap elements.
 
 ## Compilation and Execution
 
@@ -42,10 +40,9 @@ g++ Max_Heap.cpp -o Max_Heap
 ./Max_Heap
 ````
 
-For building heap from array:
+For building a heap from an array:
 
 ```bash
 g++ Build-Heap-From-Array.cpp -o BuildHeap
 ./BuildHeap
 ```
-
